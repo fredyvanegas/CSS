@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: yellow;
+    height: 120px;
+}
+
+span {
+    background-color: red;
+    /* es un elemento "en linea ==> inline" y no es "en bloque ==> block" */
+    height: 120px;
+    width: 300px;
+    border: solid black 5px;
+    padding: 5px 10px 15px 20px;
+    /* border-top: 5px solid black;
+    border-right: 5px dashed yellow;
+    border-bottom: 5px dotted pink;
+    border-left: 5px double magenta; */
+    /* font-size: 3em; */
+    display: inline-block; /* Permite modificar atributos en ancho y alto como bloque*/
+}
+
+p{
+    background-color: blueviolet;
+    height: 120px;
+}
